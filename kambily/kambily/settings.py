@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o601lu(8#&93$+cxscw=w^q3@a+z4k0obf)(_7o&b94k!4pouk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.217.75.3:8001']
 
 
 # Application definition
@@ -164,6 +164,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://kambily-two.vercel.app"
 ]
 
 MEDIA_URL = '/media/'
