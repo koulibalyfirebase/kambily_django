@@ -164,7 +164,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://kambily-two.vercel.app",
     "https://kambily-a.vercel.app",
-    "https://kambily-b.vercel.app"
+    "https://kambily-b.vercel.app",
+    "https://kambily-c.vercel.app"
 ]
 
 MEDIA_URL = '/media/'
