@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o601lu(8#&93$+cxscw=w^q3@a+z4k0obf)(_7o&b94k!4pouk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.217.75.3', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['34.217.75.3', 'localhost', '127.0.0.1', 'kambily.ddns.net']
 
 # Application definition
 
@@ -128,7 +128,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-
 STATIC_URL = 'static/'
 
 # Default primary key field type
@@ -169,3 +168,5 @@ CORS_ALLOWED_ORIGINS = [
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Dossier où collectstatic mettra les fichiers
